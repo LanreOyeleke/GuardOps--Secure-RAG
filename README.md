@@ -32,6 +32,7 @@ The ecosystem is decoupled into three independent microservices communicating ov
 
 2. Installation
 Clone the repository and move into the project directory:
+
 ```bash
 git clone [https://github.com/LanreOyeleke/GuardOps-Secure-RAG.git](https://github.com/LanreOyeleke/GuardOps-Secure-RAG.git)
 cd GuardOps-Secure-RAG
