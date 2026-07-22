@@ -5,7 +5,7 @@ An enterprise-grade, 3-tier microservice architecture designed to protect Retrie
 ## 📖 Overview
 As Large Language Models (LLMs) are integrated into corporate environments via RAG, they become highly susceptible to the OWASP Top 10 LLM vulnerabilities—specifically **Inbound Prompt Injections** (LLM01) and **Outbound Data Exfiltration** (LLM06). 
 
-Standard defenses attempt to mitigate these risks by adding rules to the system prompt or using expensive auxiliary LLMs to judge outputs. **GuardOps** takes a structural approach. By entirely decoupling the security logic into an independent, asynchronous API gateway proxy, this framework enforces a zero-trust network boundary that intercepts malicious payloads before they ever touch the core LLM context window.
+Standard defenses attempt to mitigate these risks by adding rules to the system prompt or using expensive auxiliary LLMs to judge outputs. GuardOps takes a structural approach. By entirely decoupling the security logic into an independent, asynchronous API gateway proxy, this framework enforces a zero-trust network boundary that intercepts malicious payloads before they ever touch the core LLM context window.
 
 ## 🏗️ Architecture Design
 The ecosystem is decoupled into three independent microservices communicating over local network ports to ensure modular scalability and a minimal attack surface.
@@ -25,12 +25,12 @@ The ecosystem is decoupled into three independent microservices communicating ov
 
 ## 🚀 How to Run Locally
 
-### 1. Prerequisites
+1. Prerequisites
 * Python 3.9+
 * Git
 * An active OpenAI API Key
 
-### 2. Installation
+2. Installation
 Clone the repository and move into the project directory:
 ```bash
 git clone [https://github.com/LanreOyeleke/GuardOps-Secure-RAG.git](https://github.com/LanreOyeleke/GuardOps-Secure-RAG.git)
